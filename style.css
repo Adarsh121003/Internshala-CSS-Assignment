@@ -1,0 +1,210 @@
+/* Starting Of Home Page Design */
+/* Backgroud Image setting */
+.background-design {
+  background-image: url(https://images.unsplash.com/photo-1514986888952-8cd320577b68?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1176&q=80://images.unsplash.com/photo-1549488344-1f9b8d2bd1f3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80xlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2071&q=80);
+  background-size: cover;
+  background-position: center;
+  min-height: 90vh;
+}
+
+/* Creating div and arrenging the element according to given task */
+#bgimg {
+  position: absolute;
+  width: 70%;
+  height: 60%;
+  background-size: 100vw 100vh;
+  right: 18%;
+  bottom: 40%;
+  display: flex;
+  align-items: flex-end;
+  background-image: url(https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80);
+  background-repeat: no-repeat;
+}
+.set {
+  width: 100%;
+}
+#bgimg section {
+  width: 100%;
+}
+/* Button Designing  */
+#bgimg section button {
+  width: 100%;
+  background-color: aliceblue;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  font-style: italic;
+  border-radius: 7px;
+  border-style: groove;
+  border-color: purple;
+}
+/* Hover design */
+#bgimg section button:hover {
+  background-color: yellow;
+  border: 2px solid;
+  transform: scale(1.3);
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+}
+/* End Of Home Page Styling */
+
+/* Start Menu Page Design */
+/* Grid Background added in form of gradients */
+.category {
+  background-image: linear-gradient(to bottom right, #e66465, #9198e5);
+  border-radius: 15px;
+}
+
+h2 {
+  font-size: 40px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+}
+/* Design of navbar to redirect desire pages */
+#hedset {
+  display: flex;
+  gap: 50px;
+}
+
+.category h3 {
+  text-align: center;
+  background-color: peachpuff;
+  border: 3px solid;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+  padding: 5px;
+  border-radius: 15px;
+}
+.item button {
+  text-align: center;
+  font-size: 15px;
+  margin-top: 20px;
+  width: 100%;
+  border-radius: 15px;
+  background-color: peachpuff;
+}
+.item button:hover {
+  background-color: yellowgreen;
+  border: 2px solid;
+  transform: translateY(10px);
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+}
+.item {
+  margin: 2%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.item img {
+  height: 250px;
+  width: 250px;
+  border-radius: 15px;
+  box-shadow: 0px 10px 25px 25px rgba(red, rgb(128, 0, 100), blue, alpha);
+}
+.items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+/* End Of Menu Design */
+/* Start Of Contact Us Design */
+#bgm {
+  display: flex;
+  gap: 50px;
+}
+
+.contact {
+  width: 500px;
+  margin: 0 auto;
+  margin-top: 5%;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  background-color: #ccc;
+}
+
+.container h2 {
+  text-align: center;
+}
+.contact form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.contact label {
+  display: block;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.contact input,
+.contact textarea {
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 18px;
+  border-radius: 5px;
+  border: none;
+}
+
+.contact button {
+  background-color: white;
+  color: #764ba2;
+  width: 100%;
+  margin-bottom: 10%;
+  font-size: 18px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.contact button:hover {
+  background-color: #764ba2;
+  color: white;
+  transform: translateY(10px);
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+}
+/* End Of Contact us design */
+/* Start Of About us design */
+#srct {
+  display: flex;
+  gap: 50px;
+}
+#abchg {
+  background-image: linear-gradient(to left, brown, rgb(235, 235, 226));
+}
+.about h2 {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+.about p {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+.about h3 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: underline;
+  font-style: italic;
+}
+.container h2 {
+  font-size: 30px;
+  font-style: italic;
+  font-display: swap;
+  text-decoration: underline;
+}
+
+.about img {
+  height: 300px;
+  width: 300px;
+  display: flex;
+  justify-content: left;
+  float: right;
+}
+/* End Of About Us Design */
